@@ -269,9 +269,67 @@ body {
 }
 
 /* subscribe styles */
-.subscribe{
-  max-width: 1200px;
+.subscribe1{
+  max-width: 1300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 2px solid red;
-background-image: url('../images/latest-deals-bg.png');
+  border-radius: 8px;
+
+  background: url('../images/latest-deals-bg.png');
   margin: 0 auto;
+}
+
+
+.subscribe_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 150px;
+}
+
+.inp_sub{
+  display: inline;
+  width: 500px;
+height: 60px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+
+.sub_title{
+  color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 35px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.sub_des{
+  color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.sub_btn{
+  
+  border-radius: 8px;
+
+  background: rgb(229, 84, 115);
+width: 150px;
+height: 64px;
+left: 1243px;
+right: -1243px;
+top: 4105px;
+bottom: -4105px;
 }
