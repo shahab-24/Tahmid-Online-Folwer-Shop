@@ -1,43 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
 }
 
-body{
+body {
   font-family: "Lato", sans-serif;
-
-
 }
 
-.navBar ul{
+.navBar ul {
   display: flex;
   justify-content: center;
   gap: 20px;
   padding: 30px;
   font-size: 20px;
   font-weight: 700;
-  background:palevioletred;
+  background: palevioletred;
 
   /* background: rgba(164, 4, 135, 0.1); */
   list-style: none;
-  
 }
-.navBar ul li a{
+.navBar ul li a {
   text-decoration: none;
 }
 
-.navBar ul li a:hover{
-  
+.navBar ul li a:hover {
   color: blue;
 }
 
 /* banner styles */
 
 .banner_container {
-  
   max-width: 1400px;
   height: 600px;
   margin: 0 auto;
@@ -45,32 +40,27 @@ body{
   justify-content: center;
   align-items: center;
   background: rgba(229, 84, 115, 0.1);
-
 }
 
-.banner_text{
-
+.banner_text {
   max-width: 600px;
   height: 400px;
-  
+
   text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
-
-  
 }
 
-.banner_title{
+.banner_title {
   font-size: 50px;
-font-weight: 800;
-line-height: 36px;
-line-height: 56px;
-text-align: left;
+  font-weight: 800;
+  line-height: 36px;
+  line-height: 56px;
+  text-align: left;
 }
 
-.banner_description{
+.banner_description {
   font-size: 18px;
   font-weight: 400;
   line-height: 60px;
@@ -81,84 +71,78 @@ text-align: left;
   color: rgba(39, 39, 39, 0.6);
 }
 
-.banner_container img{
-
- 
+.banner_container img {
   width: 520px;
   height: 600px;
 }
 
-.banner_btn{
+.banner_btn {
   display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 10px 23px 10px 23px;
-color: rgb(255, 255, 255);
-width: 150px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px 23px 10px 23px;
+  color: rgb(255, 255, 255);
+  width: 150px;
 
-font-size: 20px;
-font-weight: 700;
-line-height: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
 
-text-align: center;
+  text-align: center;
 
-border-radius: 8px;
-border: none;
-margin-top: 10px;
-background: rgb(229, 84, 115);
-
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+  background: rgb(229, 84, 115);
 }
 
 /* banner styles send here */
 
-
 /* featured styles */
 
-.featured_title{
+.featured_title {
   color: rgb(39, 39, 39);
-font-family: Lato;
-font-size: 30px;
-font-weight: 700;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-.featured_description{
+.featured_description {
   color: rgba(39, 39, 39, 0.6);
-font-family: Lato;
-font-size: 15px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: center;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
-.featured_container{
+.featured_container {
   width: 594px;
-height: 132px;
-margin: 0 auto;
-margin-top: 100px;
-text-align: center;
+  height: 132px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
 }
 
-.featured_img_container{ 
+.featured_img_container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 90%;
   margin: 0 auto;
-  gap:20px;
+  gap: 20px;
 }
 
-.img_container{
+.img_container {
   border: 2px solid blue;
-  
-  
 }
 
-.img_container1{
+.img_container1 {
   width: 420px;
   height: 490px;
   border-radius: 80% 80% 0 0;
@@ -166,41 +150,128 @@ text-align: center;
   background: rgba(167, 33, 98, 0.15);
 }
 
-.img_container1 img{
+.img_container1 img {
   width: 350px;
   border-radius: 50% 50% 0 0;
 }
 
-
-
-
-.img_container2{
+.img_container2 {
   width: 420px;
   height: 490px;
   border-radius: 80% 80% 0 0;
   text-align: center;
   background: rgba(5, 151, 160, 0.15);
-
 }
-.img_container2 img{
+.img_container2 img {
   width: 420px;
   height: 470px;
 }
 
-
-
-
-.img_container3{
-   width: 420px;
+.img_container3 {
+  width: 420px;
   height: 490px;
   border-radius: 80% 80% 0 0;
   text-align: center;
-background: rgba(71, 125, 17, 0.15);
+  background: rgba(71, 125, 17, 0.15);
 }
 
-
-.img_container3 img{
+.img_container3 img {
   width: 320px;
-
 }
 /* featured styles ends */
+
+/* services styles */
+
+.services_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  gap: 20px;
+  margin-top: 100px;
+  padding: 40px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-bottom: 100px;
+}
+
+.service_card1,
+.service_card2,
+.service_card3 {
+  text-align: center;
+}
+
+/* hot deal style */
+
+.hot_deal_container {
+  border: 2px solid purple;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  max-width: 1400px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.hot_deal_title {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.hot_deal_description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hot_deal_btn {
+  width: 150px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  text-align: center;
+  padding: 15px 35px 15px 35px;
+  color: wheat;
+}
+
+/* instagram styles */
+
+.instagram {
+  width: 594px;
+  height: 132px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.insta_container{
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 10px;
+  margin-bottom: 100px;
+  
+}
+
+/* subscribe styles */
+.subscribe{
+  max-width: 1200px;
+  border: 2px solid red;
+background-image: url('../images/latest-deals-bg.png');
+  margin: 0 auto;
+}
